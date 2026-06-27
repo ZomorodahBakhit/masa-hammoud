@@ -1,0 +1,14 @@
+E:\University\UniversitySystem\University.Data\bin\Debug\net10.0\University.Data.deps.json
+E:\University\UniversitySystem\University.Data\bin\Debug\net10.0\University.Data.runtimeconfig.json
+E:\University\UniversitySystem\University.Data\bin\Debug\net10.0\University.Data.dll
+E:\University\UniversitySystem\University.Data\bin\Debug\net10.0\University.Data.pdb
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.csproj.AssemblyReference.cache
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.AssemblyInfoInputs.cache
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.AssemblyInfo.cs
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.csproj.CoreCompileInputs.cache
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.dll
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\refint\University.Data.dll
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.pdb
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\University.Data.genruntimeconfig.cache
+E:\University\UniversitySystem\University.Data\obj\Debug\net10.0\ref\University.Data.dll

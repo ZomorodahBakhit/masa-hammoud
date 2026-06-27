@@ -1,0 +1,15 @@
+E:\University\UniversitySystem\University.Core\bin\Debug\net10.0\University.Core.deps.json
+E:\University\UniversitySystem\University.Core\bin\Debug\net10.0\University.Core.dll
+E:\University\UniversitySystem\University.Core\bin\Debug\net10.0\University.Core.pdb
+E:\University\UniversitySystem\University.Core\bin\Debug\net10.0\University.Data.dll
+E:\University\UniversitySystem\University.Core\bin\Debug\net10.0\University.Data.pdb
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.csproj.AssemblyReference.cache
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.AssemblyInfoInputs.cache
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.AssemblyInfo.cs
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.csproj.CoreCompileInputs.cache
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\Universi.31CA1AD5.Up2Date
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.dll
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\refint\University.Core.dll
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\University.Core.pdb
+E:\University\UniversitySystem\University.Core\obj\Debug\net10.0\ref\University.Core.dll
