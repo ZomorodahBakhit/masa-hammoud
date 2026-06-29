@@ -1,0 +1,112 @@
+2026-06-29 12:20:45.973 +03:00 [INF] Now listening on: http://localhost:5282
+2026-06-29 12:20:46.036 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-29 12:20:46.039 +03:00 [INF] Hosting environment: Development
+2026-06-29 12:20:46.042 +03:00 [INF] Content root path: E:\University\UniversitySystem\University.API
+2026-06-29 12:20:54.156 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/index.html - null null
+2026-06-29 12:20:54.381 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/index.html - 304 null null 226.5398ms
+2026-06-29 12:20:54.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/index.css - null null
+2026-06-29 12:20:54.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/index.js - null null
+2026-06-29 12:20:54.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-bundle.js - null null
+2026-06-29 12:20:54.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-29 12:20:54.427 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui.css - null null
+2026-06-29 12:20:54.452 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/index.js - 304 null null 39.5103ms
+2026-06-29 12:20:54.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-standalone-preset.js - 304 null null 81.4483ms
+2026-06-29 12:20:54.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/index.css - 304 null null 81.2249ms
+2026-06-29 12:20:54.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui.css - 304 null null 67.14ms
+2026-06-29 12:20:54.495 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-bundle.js - 304 null null 83.4755ms
+2026-06-29 12:20:54.694 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/v1/swagger.json - null null
+2026-06-29 12:20:54.706 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/favicon-32x32.png - null null
+2026-06-29 12:20:54.740 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/favicon-32x32.png - 304 null null 33.8035ms
+2026-06-29 12:20:54.922 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 228.1681ms
+2026-06-29 12:21:03.595 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/api/Courses - null null
+2026-06-29 12:21:03.655 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-06-29 12:21:03.663 +03:00 [INF] Executing endpoint 'University.API.Controllers.CoursesController.GetAll (University.API)'
+2026-06-29 12:21:03.701 +03:00 [INF] Route matched with {action = "GetAll", controller = "Courses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller University.API.Controllers.CoursesController (University.API).
+2026-06-29 12:21:04.680 +03:00 [INF] GET /courses called
+2026-06-29 12:21:04.684 +03:00 [INF] Fetching all courses
+2026-06-29 12:21:07.551 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[EndDate], [c].[StartDate], [c].[Title]
+FROM [Courses] AS [c]
+2026-06-29 12:21:07.660 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[University.Core.DTOs.CourseDto, University.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-29 12:21:07.692 +03:00 [INF] Executed action University.API.Controllers.CoursesController.GetAll (University.API) in 3979.6321ms
+2026-06-29 12:21:07.695 +03:00 [INF] Executed endpoint 'University.API.Controllers.CoursesController.GetAll (University.API)'
+2026-06-29 12:21:07.920 +03:00 [INF] Source:[::1] Request: GET http localhost:5282/api/Courses   Responded with [200] in 4266ms
+2026-06-29 12:21:07.935 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/api/Courses - 200 353 application/json 4339.9939ms
+2026-06-29 12:21:35.041 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5282/api/Courses - application/json 103
+2026-06-29 12:21:35.068 +03:00 [INF] Executing endpoint 'University.API.Controllers.CoursesController.Create (University.API)'
+2026-06-29 12:21:35.090 +03:00 [INF] Route matched with {action = "Create", controller = "Courses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(University.Core.Forms.CreateCourseForm) on controller University.API.Controllers.CoursesController (University.API).
+2026-06-29 12:21:35.164 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-06-29 12:21:35.198 +03:00 [INF] Executed action University.API.Controllers.CoursesController.Create (University.API) in 100.8144ms
+2026-06-29 12:21:35.201 +03:00 [INF] Executed endpoint 'University.API.Controllers.CoursesController.Create (University.API)'
+2026-06-29 12:21:35.242 +03:00 [INF] Source:[::1] Request: POST http localhost:5282/api/Courses  {
+  "title": "}#",
+  "startDate": "2026-06-29T09:21:22.058Z",
+  "endDate": "2024-06-29T09:21:22.058Z"
+} Responded with [400] in 186ms
+2026-06-29 12:21:35.250 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5282/api/Courses - 400 423 application/json 209.0589ms
+2026-06-29 12:21:48.570 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/api/Students - null null
+2026-06-29 12:21:48.583 +03:00 [INF] Executing endpoint 'University.API.Controllers.StudentsController.GetAll (University.API)'
+2026-06-29 12:21:48.590 +03:00 [INF] Route matched with {action = "GetAll", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller University.API.Controllers.StudentsController (University.API).
+2026-06-29 12:21:48.607 +03:00 [INF] GET /students called
+2026-06-29 12:21:48.612 +03:00 [INF] Fetching all students
+2026-06-29 12:21:48.679 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Email], [s].[Name]
+FROM [Students] AS [s]
+2026-06-29 12:21:48.702 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[University.Core.DTOs.StudentDto, University.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-29 12:21:48.709 +03:00 [INF] Executed action University.API.Controllers.StudentsController.GetAll (University.API) in 111.391ms
+2026-06-29 12:21:48.711 +03:00 [INF] Executed endpoint 'University.API.Controllers.StudentsController.GetAll (University.API)'
+2026-06-29 12:21:48.718 +03:00 [INF] Source:[::1] Request: GET http localhost:5282/api/Students   Responded with [200] in 134ms
+2026-06-29 12:21:48.723 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/api/Students - 200 153 application/json 152.8075ms
+2026-06-29 12:31:16.190 +03:00 [INF] Application is shutting down...
+2026-06-29 12:31:52.711 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-06-29 12:31:52.764 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-06-29 12:31:52.820 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2026-06-29 12:31:52.920 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2026-06-29 12:31:52.944 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-06-29 12:31:52.951 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-06-29 12:31:52.972 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-06-29 12:31:52.992 +03:00 [INF] Applying migration '20260629093132_UpdateConstraints'.
+2026-06-29 12:31:53.009 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260629093132_UpdateConstraints', N'10.0.9');
+2026-06-29 12:31:53.023 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2026-06-29 12:32:33.957 +03:00 [INF] Now listening on: http://localhost:5282
+2026-06-29 12:32:33.999 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-29 12:32:34.001 +03:00 [INF] Hosting environment: Development
+2026-06-29 12:32:34.003 +03:00 [INF] Content root path: E:\University\UniversitySystem\University.API
+2026-06-29 12:32:37.899 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/index.html - null null
+2026-06-29 12:32:38.137 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/index.html - 304 null null 239.8271ms
+2026-06-29 12:32:38.179 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/index.css - null null
+2026-06-29 12:32:38.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-29 12:32:38.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-bundle.js - null null
+2026-06-29 12:32:38.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/index.js - null null
+2026-06-29 12:32:38.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui.css - null null
+2026-06-29 12:32:38.233 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/index.js - 304 null null 53.9231ms
+2026-06-29 12:32:38.250 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui.css - 304 null null 72.0881ms
+2026-06-29 12:32:38.250 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-standalone-preset.js - 304 null null 72.3153ms
+2026-06-29 12:32:38.250 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/index.css - 304 null null 72.1768ms
+2026-06-29 12:32:38.251 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/swagger-ui-bundle.js - 304 null null 72.8506ms
+2026-06-29 12:32:38.324 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/v1/swagger.json - null null
+2026-06-29 12:32:38.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5282/swagger/favicon-32x32.png - null null
+2026-06-29 12:32:38.337 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/favicon-32x32.png - 304 null null 9.669ms
+2026-06-29 12:32:38.533 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5282/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.6776ms
